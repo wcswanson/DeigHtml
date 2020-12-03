@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* Medium Screen size adjustments, most likely tablets */
+
+body {
+	background-image: none;
+	font-size: 16px;
+}
+
+.header {
+	font-size: 0.8em;
+}
+
+.header_map {
+	background-image: none;
+	width: 1px;
+	max-width: 0;
+	min-width: 0;
+}
+
+.header_DEIG {
+	width: 70%;
+}
+
+.header_hotline {
+	width: 30%;
+}
+
+.ddsmoothmenu {
+	font-size: 15px;
+	height: 68px;
+	background-repeat: repeat;
+}
+
+.ddsmoothmenu ul li{
+	padding-top: 5px;
+}
+.ddsmoothmenu ul li ul li a{
+	font: bold 15px Verdana;
+}
+
+.footer {
+	height: 120px;
+}

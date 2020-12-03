@@ -1,0 +1,265 @@
+@charset "utf-8";
+body {
+	/* background-image: url('../_images/sky_seamless.jpg');
+	background-repeat: repeat; */
+	background-color: #346DD6;
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+	-webkit-print-color-adjust:exact;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. */
+	height: 80%;
+	background-color: #FFF;
+}
+
+.header {
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: 0 1px 0 #FFFFFF;
+	width: 100%;
+	height: 120px;
+	position: relative;
+	float: left;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+	line-height: 0.5;
+	background: rgb(255, 255, 102);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top: solid 1px rgb(255, 255, 204);
+	box-shadow: 8px 0 4px 0 rgba(0,0,0,0.2);
+}
+
+.header_map {
+/*	background-image:url(../_images/District_map_small.png);*/
+	background: url(../_images/District_map_small.png) no-repeat 20px 5px;
+	min-width: 100px;
+	min-height: 150px;
+	text-align: center;
+	width: 20%;
+	float: left;
+/*	width: 150;
+	position: absolute;
+	left: 30px;
+	top: 6px;*/
+}
+
+.header_DEIG {
+	text-align: center;
+	width: 50%;
+	float: left;
+/*	position: absolute;
+	width: 350;
+	left: 230px;
+	top: 10px;*/
+}
+
+.header_hotline {
+	text-align: center;
+	width: 30%;
+	float: left;
+/*	position: absolute;
+	width: 280;
+	left: 690px;
+	top: 10px;*/
+}
+
+.main_window {
+	clear: both;
+	width: 100%;
+	min-height: 460px;
+	color: #000;
+	background-color: #FFF;
+	box-shadow: 8px 0 4px 0 rgba(0,0,0,0.2);
+	overflow: auto;
+}
+
+.content {
+/*	float: left; */
+/*	position: absolute;
+	left: 330px;
+	top: 180px; */
+	max-width: 90%;
+	min-width: 240px;
+}
+
+.wider {
+	max-width: 690px;
+	min-width: 240px;
+}
+.aa_logo {
+	background: url(../_images/AA_logo.png) no-repeat 0px 0px;
+}
+
+.content_full {
+	float: left;
+	width: 100%;
+}
+
+.sidebar {
+	float: left;
+	min-width:250px;
+	max-width: 360px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.simple_box {
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding: 2px;
+	margin: 5px;
+	float: left;
+}
+	
+
+.footer {
+	height: 75px;
+	width: 100%;
+	clear: both;
+	background-color: #CCC;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 8px 8px 4px 0 rgba(0,0,0,0.2);
+}
+
+table {
+	border-collapse:collapse;
+}
+
+table, th, td
+{
+	font-size: 0.9em;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+tr:nth-child(odd)		{ background-color:#CCC; }
+tr:nth-child(even)		{ background-color:#EEE; }
+
+p, h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar p {
+	font-size: 0.9em;
+	text-align: left;
+}
+
+.sidebar tr td {
+	font-size: 0.9em;
+	text-align: left;
+}
+
+.header_DEIG p {
+	font-size: 2.0em;
+	line-height: 1.4em;
+	font-weight: bolder;
+}
+
+.header_hotline p {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	font-weight: bolder;
+}
+
+.content p, h1, h2, h3, h4, h5, h6 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.content p {
+	font-size: 0.9em;
+}
+
+.content_full p, h1, h2, h3, h4, h5, h6 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.content_full p {
+	font-size: 0.9em;
+}
+
+
+
+.footer p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 5px;
+}
+
+a.map {
+	padding: 0px 8px 0px 0px;
+	background: url(../_images/blue-pin.png) no-repeat right 0px;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+img.rounded {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+p.center {
+	text-align: center;
+}
+
+p.right {
+	text-align: right;
+}
+
+h3.center {
+	text-align: center;
+}
+td.center {
+	text-align: center;
+}
+
+p.reference {
+	text-align: right;
+	font-style: italic;
+	position: relative;
+	top: -5px; 
+	font-size: .8em;
+	padding: 0;
+	padding-right: 20px;
+}
+p.big {
+	font-size: 1.2em;
+}
+
+p.big_bold {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+td h3 {
+	text-align: center;
+}

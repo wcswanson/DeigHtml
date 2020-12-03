@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* Small Screen size adjustments, most likely smart phones and iPods */
+
+body {
+	background-image: none;
+	font-size: 16px;
+}
+
+.header {
+	font-size: 0.85em;
+	height: 180px;
+}
+
+.header_map {
+	background-image: none;
+	width: 1px;
+	max-width: 0;
+	min-width: 0;
+}
+
+.header_DEIG {
+	width: 100%;
+}
+
+.header_hotline {
+	width: 100%;
+}
+
+.ddsmoothmenu {
+	font-size: 15px;
+	height: 140px;
+	background-repeat: repeat;
+}
+
+.ddsmoothmenu ul li{
+	padding-top: 5px;
+}
+.ddsmoothmenu ul li ul li a{
+	font: bold 15px Verdana;
+}
+
+.aa_logo {background: url(../_images/AA_logo_small.png) no-repeat 0px 0px;}
+
+.footer {
+	height: 150px;
+}

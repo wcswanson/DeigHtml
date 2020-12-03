@@ -1,0 +1,153 @@
+@charset "utf-8";
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 26px;
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+.header {
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: 0 1px 0 #FFFFFF;
+	width: 100%;
+	height: 170px;
+	position: relative;
+	font-size: 26px;
+	line-height: 350%;
+	float: left;
+	padding: 0;
+	margin: 0;
+	line-height: 0.5;
+	background: rgb(255, 255, 102);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top: solid 1px rgb(255, 255, 204);
+	box-shadow: 8px 0 4px 0 rgba(0,0,0,0.2);
+	
+	/*	border-bottom: solid 1px rgb(153, 153, 102); */
+}
+
+.header_map {
+	width: 120;
+	position: absolute;
+	left: 30px;
+	top: 6px;
+	text-align: center;
+}
+
+.header_DEIG {
+	position: absolute;
+	width: 350;
+	left: 110px;
+	top: 10px;
+	text-align: center;
+}
+
+.header_hotline {
+	position: absolute;
+	width: 300;
+	left: 670px;
+	top: 17px;
+	text-align: center;
+}
+.header_hotline p {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	font-weight: bolder;
+}
+
+
+.main_window {
+	min-height: 460px;
+	color: #000;
+	background-color: #FFF;
+	box-shadow: 8px 0 4px 0 rgba(0,0,0,0.2);
+}
+.content {
+	font-size: 50px;
+/*	position: relative;
+	right: -270px;
+	top: 0; */
+	width: 95%;
+}
+
+.sidebar_map {
+	width: 508px;
+	position: relative;
+	left: 200px;
+}
+
+.footer {
+	font-size: 40px;
+	height: 150px;
+	width: 100%;
+	clear: both;
+	background-color: #CCC;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 8px 8px 4px 0 rgba(0,0,0,0.2);
+}
+.footer p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.simple_box {
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding: 2px;
+	margin: 5px;
+	float: left;
+}
+	
+
+
+p, h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+.content p, h1, h2, h3, h4, h5, h6 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.content p {
+	font-size: 0.9em;
+}
+
+.footer p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.75em;
+}
+
+p.center {
+	text-align: center;
+}
+
+p.reference {
+	text-align: right;
+	font-style: italic;
+	position: relative;
+	top: -5px; 
+	font-size: .8em;
+	padding: 0;
+	padding-right: 20px;
+}
+

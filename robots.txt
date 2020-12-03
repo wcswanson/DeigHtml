@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /BusinessMeetings/
+Disallow: /DEIG_financials/
+Disallow: /DEIG_minutes/
+Disallow: /District_Information/
+Disallow: /Maps/
+Disallow: /Meeting_Resources/
+Disallow: /PDFs/
+Disallow: /Pamplets/
+Disallow: /Service/
+Disallow: /Workbooks/
+Disallow: /_css/
+Disallow: /_images/
+Disallow: /events/
+Disallow: /newsletters/
+Disallow: /test/

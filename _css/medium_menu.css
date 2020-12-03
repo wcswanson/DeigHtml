@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* Medium Screen size adjustments, most likely tablets */
+
+body {
+	background-image: none;
+	font-size: 16px;
+
+}
+
+.header {
+	font-size: 0.9em;
+}
+
+
+.ddsmoothmenu {
+	font-size: 15px;
+	height: 68px;
+	background-repeat: repeat;
+}
+
+.ddsmoothmenu ul li{
+	padding-top: 5px;
+}
+.ddsmoothmenu ul li ul li a{
+	font: bold 15px Verdana;
+}

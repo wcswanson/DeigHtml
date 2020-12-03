@@ -1,0 +1,52 @@
+<nav>
+	<ul class="hnavbar">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#nowhere">Meetings</a>
+			<ul>
+				<li><a href="aa-meetings.html">AA Meetings</a></li>
+				<li><a href="AA-Business-Meetings.html">AA Business Meetings</a></li>
+				<!-- <li><a href="#l">related meetings</a></li> -->
+			</ul>
+		</li>
+		<li><a href="AA-Events.html">AA Events</a>
+			<!-- <ul>
+				<li><a href="#nowhere">Area 28 Calendar for 2017</a></li>
+				<li><a href="#nowhere">Current Events</a></li>
+				<li><a href="#nowhere">Past Events and Feedback</a></li>
+			</ul> -->
+		</li>
+		<li><a href="NewsLetters.html">News Letters</a></li>
+		<li><a href="#nowhere">DEIG Information</a>
+			<ul>
+				<li><a href="Contacts.html">Contacts</a></li>
+				<li><a href="Financials.html">DEIG Financials</a></li>
+				<li><a href="Minutes.html">DEIG Minutes</a></li>
+				<li><a href="District-Information.html">District Information</a></li>
+			</ul>
+		</li>
+		<li><a href="AA-Information.html">AA Information</a>
+			<ul>
+				<li><a href="Pamplets.html">Pamplets</a>
+					<ul>
+						<li><a href="Recovery.html">Recovery</a></li>
+						<li><a href="Service.html">Service</a></li>
+						<li><a href="For-Professionals.html">For Professionals</a></li>
+					</ul>
+				</li>
+			    <li><a href="Service-Information.html">Service Information</a>
+					<ul>
+						<li><a href="Meeting-Resources.html">Meeting Resources</a></li>
+						<li><a href="District-Resources.html">Group/District Resources</a></li>
+						<li><a href="Workbooks.html">Workbooks</a></li>
+					</ul>
+				</li> 
+			</ul>
+		</li>
+		<li><a href="Related-Websites.html">Related Websites</a>
+			<ul>
+						<li><a href="Resources.html">Other Helpful Resources</a></li>
+			</ul>
+			</li>
+		<li><a href="About.html">About</a></li>
+	</ul>		
+</nav>
